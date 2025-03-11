@@ -1,0 +1,74 @@
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+html {
+    background-color: azure;
+}
+/*header section*/
+h1 {
+    background-color: cornflowerblue;
+    height: 100px;
+    margin: 0% auto;
+    padding-top: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+}
+
+.navigation {
+    background-color: cornflowerblue;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 80px;
+    color: aliceblue;
+}
+
+/*main*/
+    /*tags section*/
+h2 { 
+    text-align: center;
+}   
+
+p {
+    text-align: center;
+}
+
+table{
+    margin-top: 80px;
+    margin-bottom:80px ;
+}
+
+thead {
+    background-color: cornflowerblue;
+    color: azure;
+    border: 3px solid cornflowerblue;
+}
+
+tbody {
+    background-color: lightcyan;
+    height: fit-content;
+}
+
+td {
+    border: 3px solid cornflowerblue;
+    color:black;
+}
+
+/* common tags section*/
+
+.table2 {
+    
+    margin-left: 15%;
+}
+
+/* common attributes section*/
+
+
+/* footer*/
+footer {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: smaller;
+}

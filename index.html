@@ -1,12 +1,211 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>content learned</title>
+</head>
 <body>
-    <h1>YOUR NAME</h1>
-    <p>Welcome to my new website!</p>
-    <img src="https://content.codecademy.com/articles/github-pages-via-web-app/happy-ice-cream.gif" />
+    <header>
+        <h1> HTML CHEATSHEET</h1>
+        <nav class="navigation">
+            <a href="#tags">HTML Tags</a> |
+            <a href="#semantic">HTML Semantic tags</a> |
+            <a href="#attributes">HTML Attributes</a> |
+        </nav>
+    </header>
+    <main>
+        <div> 
+            <h2 class="tags" id="tags">HTML Tags</h2>
+            <p>HTML Tags are fundamental elements used to structure and format content on web pages. They provide instructions to web browsers on how to render text, images, links, and other media.</p>
+            <table>
+                <thead class="header1">
+                    <!--HEADER -->
+                    <tr>
+                        <th scope="col">TAG</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">DESCRIPTION</th>
+                    </tr>
+                </thead> 
+                <tbody class="table1">  
+                    <tr>
+                        <!--RAW 1 -->
+                        <td>&lt;html&gt;</td>
+                        <td>Html document tag</td>
+                        <td> This tag contains all of the HTML elements.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 2-->
+                        <td>&lt;head&gt;</td>
+                        <td>Head</td>
+                        <td>First section of your document, which is not display on the page, but contains metadata, and/or information about the page.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 3-->
+                        <td>&lt;title&gt;</td>
+                        <td>Title</td>
+                        <td>Html elemente that specifies the title of a webpage, this tag is very important for the SEO.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 4-->
+                        <td>&lt;body&gt;</td>
+                        <td>Body</td>
+                        <td>This element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc. Note: There can only be one <body> element in an HTML document.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 5-->
+                        <td>&lt;h1&gt;</td>
+                        <td>headings</td>
+                        <td>Defines the most important heading. &lt;h6&gt; defines the least important heading. Note: Only use one &lt;h1&gt; per page - this should represent the main heading/subject for the whole page.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 6-->
+                        <td>&lt;a&gt;</td>
+                        <td>Anchor</td>
+                        <td>Creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 7-->
+                        <td>&lt;ul/ol&gt;</td>
+                        <td>Unordered list and Ordered list</td>
+                        <td>The ol element is used when the list is ordered and the ul element is used when the list is unordered.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 8-->
+                        <td>&lt;p&gt;</td>
+                        <td>Paragraphs</td>
+                        <td>this tag is a fundamental element used for creating paragraphs in web development. It helps structure content, separating text into distinct blocks.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 9-->
+                        <td>&lt;img&gt;</td>
+                        <td>Image</td>
+                        <td>It is used to embed an image in an HTML page. Images are not technically inserted into a web page; images are linked to web pages.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 10-->
+                        <td>&lt;table&gt;</td>
+                        <td>Table</td>
+                        <td>HTML table tag is used for represent structured data grid organized into rows and columns.</td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
+        <div>    
+            <h2 class="semantic" id="semantic">Semantic HTML Tags</h2>
+            <!--SEMANTIC TAGS SECTION-->
+            <table class="table2">
+            <!--HEADER -->
+                <thead>
+                    <tr>
+                        <th scope="col">TAG</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">DESCRIPTION</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <!--RAW 1 -->
+                        <td>&lt;header&gt;</td>
+                        <td>Header</td>
+                        <td> This tag represent introductory content</td>
+                    </tr>
+                    <tr>
+                    <!--RAW 1.5 -->
+                        <td>&lt;nav&gt;</td>
+                        <td>Navigation</td>
+                        <td> Used for navigations menus and links.</td>
+                    </tr>
+                    <tr>
+                    <!--RAW 2  -->
+                        <td>&lt;main&gt;</td>
+                        <td>Main</td>
+                        <td>Contains the core information of a page.</td>
+                    </tr>
+                    <tr>
+                    <!--RAW 3  -->
+                        <td>&lt;section&gt;</td>
+                        <td>Section</td>
+                        <td>defines the section of documents such as chapters, headers, footers, or any other sections.</td>
+                    </tr>
+                    <tr>
+                    <!--RAW 4 -->
+                        <td>&lt;article&gt;</td>
+                        <td>Article</td>
+                        <td> This tag specifies independent, self-contained content.</td>
+                    </tr>
+                    <tr>
+                    <!--RAW 5 -->
+                        <td>&lt;figure&gt;</td>
+                        <td>Figure</td>
+                        <td> Used for embedding images, charts, or diagrams, along with a caption </td>
+                    </tr>
+                    <tr>
+                    <!--RAW 6 -->
+                        <td>&lt;footer&gt;</td>
+                        <td>Footer</td>
+                        <td> This tag contains contact details, and copyright information.  </td>
+                    </tr>
+                </tbody>    
+            </table>
+        </div>
+        <div>    
+            <!--HTML ATTRIBUTES SECTION-->
+            <h2 class="attributes"  id="attributes">Common HTML attributes</h2>
+            <p>HTML attributes are values added to the opening tag of an element to configure the element or change the element’s default behavior.</p>
+            <table>       
+                <thead>
+                    <tr>
+                        <th scope="col">TAG</th>
+                        <th scope="col">BELONGS TO</th>
+                        <th scope="col">DESCRIPTION</th>
+                    </tr>    
+                </thead>
+                <tbody>
+                    <tr>
+                        <!--RAW 1 -->
+                        <td>class</td>
+                        <td>Global attributes</td>
+                        <td>The HTML class attribute specifies one or more class names for an element.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 2 -->
+                        <td>id</td>
+                        <td>Global attributes</td>
+                        <td>This attribute is used to specify a unique id for an HTML element. You cannot have more than one element with the same id in an HTML document.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 3 -->
+                        <td>style</td>
+                        <td>Global attributes</td>
+                        <td>The HTML style attribute is used to add styles to an element, such as color, font, size, and more. It is an inline CSS style.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 4 -->
+                        <td>href</td>
+                        <td>&lt;a&gt;,&lt;area&gt;,&lt;base&gt;,&lt;link&gt;</td>
+                        <td>The href attribute specifies the URL of the page the link goes to.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 5 -->
+                        <td>src</td>
+                        <td>&lt;audio&gt;,&lt;embed&gt;,&lt;img&gt;,&lt;iframe&gt;,&lt;inpu&gt;,&lt;script&gt;,&lt;source&gt;,&lt;track&gt;,&lt;video&gt;</td>
+                        <td>Specifies the URL of a media file.</td>
+                    </tr>
+                    <tr>
+                        <!--RAW 6 -->
+                        <td>alt</td>
+                        <td>&lt;area&gt;,&lt;img&gt;,&lt;input&gt;,&lt;</td>
+                        <td>Specifies an alternate text when the original element fails to display.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
     <footer>
-        
-    </footer>
+        <h5>published by: Gerson Echavarria </h5>
+    </footer>        
+    
 </body>
-
 </html>
